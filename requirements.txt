@@ -1,0 +1,7 @@
+litellm
+openai
+playsound
+sounddevice
+scipy
+wavio
+numpy

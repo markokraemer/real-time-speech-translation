@@ -7,6 +7,9 @@ from openai import OpenAIError
 import time
 import logging
 
+
+# Make sure to initialise your OpenAI & Groq API Key 
+
 # Load environment variables
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")

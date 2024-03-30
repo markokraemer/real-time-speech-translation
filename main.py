@@ -11,6 +11,8 @@ import threading
 import queue
 import numpy as np
 
+# Make sure to initialise your OpenAI & Groq API Key 
+
 def record_user_audio(filename="user_input.wav", fs=44100):
     def callback(indata, frames, time, status):
         q.put(indata.copy())
